@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1755909320</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\general.h</file>
+      <file>$PROJ_DIR$\i2c.c</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\iar_output\chip_11cxx_lib\Exe\chip_11cxx_lib.a</file>
+      <file>$PROJ_DIR$\i2c.h</file>
+      <file>$PROJ_DIR$\vendor\applications\lpc11xx\startup_code\iar_startup_lpc11xx.s</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\pca9685.c</file>
+      <file>$PROJ_DIR$\pca9685.h</file>
+      <file>$PROJ_DIR$\vendor\applications\lpc11xx\startup_code\sysinit.c</file>
+      <file>$PROJ_DIR$\PC9685_Demo\pca9685.c</file>
+      <file>$PROJ_DIR$\PC9685_Demo\pc9685.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\PC9685_Demo.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\pc9685.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\pca9685.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\pca9685.o</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_common\lpc_types.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\config_11cxx\sys_config.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\chip.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\pmu_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\config_11cxx\cmsis_11cxx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\cmsis.h</file>
+      <file>$PROJ_DIR$\vendor\software\CMSIS\CMSIS\Include\core_cm0.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\fmc_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\CMSIS\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\vendor\software\CMSIS\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\sysctl_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\clock_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\iocon_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\timer_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\uart_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_common\ring_buffer.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\wwdt_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\ssp_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\romapi_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_common\error.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\adc_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\gpio_11xx_2.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\i2c_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\ccand_11xx.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysinit.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\sysinit.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\iar_startup_lpc11xx.o</file>
+      <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+      <file>$TOOLKIT_DIR$\config\linker\NXP\LPC11C24FBD48_301.icf</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\i2c.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\i2c.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 0 29 22 23 24 25 26 16 17 28 27 21 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3 0 29 22 23 24 25 26 16 17 28 27 21 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\vendor\applications\lpc11xx\startup_code\iar_startup_lpc11xx.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>AARM</name>
+          <file> 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 29 22 23 24 25 26 16 17 28 27 21 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55 3 7</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 29 22 23 24 25 26 16 17 28 27 21 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55 3 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\pca9685.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 0 29 22 23 24 25 26 16 17 28 27 21 3 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7 0 29 22 23 24 25 26 16 17 28 27 21 3 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\vendor\applications\lpc11xx\startup_code\sysinit.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 32 21 22 23 24 25 26 16 17 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34 32 21 22 23 24 25 26 16 17 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\PC9685_Demo\pca9685.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\PC9685_Demo\pc9685.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 61 2 65 58 13 31 56 62 63 60 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\PC9685_Demo\pc9685.c</name>
+      <tool>ICCARM</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
