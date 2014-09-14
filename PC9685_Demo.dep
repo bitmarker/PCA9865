@@ -15,11 +15,11 @@
       <file>$PROJ_DIR$\pca9685.c</file>
       <file>$PROJ_DIR$\pca9685.h</file>
       <file>$PROJ_DIR$\vendor\applications\lpc11xx\startup_code\sysinit.c</file>
-      <file>$PROJ_DIR$\PC9685_Demo\pca9685.c</file>
       <file>$PROJ_DIR$\PC9685_Demo\pc9685.c</file>
+      <file>$PROJ_DIR$\PC9685_Demo\pca9685.c</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\PC9685_Demo.pbd</file>
       <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\PC9685_Demo.pbd</file>
       <file>$PROJ_DIR$\Debug\Exe\c.out</file>
       <file>$PROJ_DIR$\Debug\Obj\pc9685.pbi</file>
       <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
@@ -40,15 +40,15 @@
       <file>$PROJ_DIR$\Debug\Obj\pca9685.o</file>
       <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_common\lpc_types.h</file>
       <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\config_11cxx\sys_config.h</file>
-      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\chip.h</file>
       <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\pmu_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\chip.h</file>
       <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\config_11cxx\cmsis_11cxx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\fmc_11xx.h</file>
       <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\cmsis.h</file>
       <file>$PROJ_DIR$\vendor\software\CMSIS\CMSIS\Include\core_cm0.h</file>
-      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\fmc_11xx.h</file>
+      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\sysctl_11xx.h</file>
       <file>$PROJ_DIR$\vendor\software\CMSIS\CMSIS\Include\core_cmInstr.h</file>
       <file>$PROJ_DIR$\vendor\software\CMSIS\CMSIS\Include\core_cmFunc.h</file>
-      <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\sysctl_11xx.h</file>
       <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\clock_11xx.h</file>
       <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\iocon_11xx.h</file>
       <file>$PROJ_DIR$\vendor\software\lpc_core\lpc_chip\chip_11xx\timer_11xx.h</file>
@@ -97,11 +97,11 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 3 0 29 22 23 24 25 26 16 17 28 27 21 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+          <file> 3 0 29 22 23 24 25 26 16 17 28 27 21 35 32 18 33 38 36 39 41 19 20 42 34 37 40 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 3 0 29 22 23 24 25 26 16 17 28 27 21 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+          <file> 3 0 29 22 23 24 25 26 16 17 28 27 21 35 32 18 33 38 36 39 41 19 20 42 34 37 40 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
         </tool>
       </inputs>
     </file>
@@ -129,17 +129,17 @@
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 13</file>
+          <file> 12</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 0 29 22 23 24 25 26 16 17 28 27 21 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55 3 7</file>
+          <file> 0 29 22 23 24 25 26 16 17 28 27 21 35 32 18 33 38 36 39 41 19 20 42 34 37 40 43 44 45 46 47 48 49 50 51 52 53 54 55 3 7</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 0 29 22 23 24 25 26 16 17 28 27 21 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55 3 7</file>
+          <file> 0 29 22 23 24 25 26 16 17 28 27 21 35 32 18 33 38 36 39 41 19 20 42 34 37 40 43 44 45 46 47 48 49 50 51 52 53 54 55 3 7</file>
         </tool>
       </inputs>
     </file>
@@ -157,12 +157,8 @@
       </outputs>
       <inputs>
         <tool>
-          <name>BICOMP</name>
-          <file> 7 0 29 22 23 24 25 26 16 17 28 27 21 3 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
-        </tool>
-        <tool>
           <name>ICCARM</name>
-          <file> 7 0 29 22 23 24 25 26 16 17 28 27 21 3 34 32 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+          <file> 7 0 29 22 23 24 25 26 16 17 28 27 21 3 35 32 18 33 38 36 39 41 19 20 42 34 37 40 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
         </tool>
       </inputs>
     </file>
@@ -181,22 +177,13 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 34 32 21 22 23 24 25 26 16 17 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+          <file> 35 32 21 22 23 24 25 26 16 17 18 33 38 36 39 41 19 20 42 34 37 40 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
         </tool>
         <tool>
           <name>ICCARM</name>
-          <file> 34 32 21 22 23 24 25 26 16 17 18 33 37 36 38 40 19 20 41 35 39 42 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
+          <file> 35 32 21 22 23 24 25 26 16 17 18 33 38 36 39 41 19 20 42 34 37 40 43 44 45 46 47 48 49 50 51 52 53 54 55</file>
         </tool>
       </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\PC9685_Demo\pca9685.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 30</file>
-        </tool>
-      </outputs>
     </file>
     <file>
       <name>$PROJ_DIR$\PC9685_Demo\pc9685.c</name>
@@ -208,11 +195,20 @@
       </outputs>
     </file>
     <file>
+      <name>$PROJ_DIR$\PC9685_Demo\pca9685.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
       <name>$PROJ_DIR$\Debug\Exe\c.out</name>
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 61 2 65 58 13 31 56 62 63 60 59</file>
+          <file> 61 2 65 58 12 31 56 62 63 60 59</file>
         </tool>
       </inputs>
     </file>
